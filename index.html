@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ADVANTURE</title>
+    <!--css-->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVANTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a></a>Home</li>
+            <li><a href="#"></a></a>Tours</li>
+            <li><a href="#"></a></a>Explore</li>
+            <li><a href="#"></a></a>About</li>
+            <li class="ctn"><a href="#"></a></a>Contact</li>
+        </ul>
+        <img src="./Images/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+<header>
+    <div class="header-content">
+        <h2>Explore the colourful world</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+</header>
+
+<!--Events-->
+<section>
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+</section>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</body>
+</html>
