@@ -232,4 +232,21 @@ h4{
     padding-top: 30px;
 }
 
+/*footer*/
+
+.footer{
+    width: 100%;
+    min-height: 50%;
+    margin: 0;
+    padding: 8px 80px;
+    text-align: center;
+    background: rgb(113, 113, 126);
+}
+
+.footer p{
+    margin: 20px auto;
+    color: whitesmoke;
+}
+
+
 
