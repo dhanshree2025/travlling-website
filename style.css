@@ -182,6 +182,15 @@ h4{
 }
 
 /*tours*/
+
+.tours h1{
+    color: rgb(112, 74, 150);
+}
+
+.tours p{
+    color: rgb(110, 108, 108);
+}
+
 .w-50{
     width: 50%;
 }
