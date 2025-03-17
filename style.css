@@ -167,7 +167,7 @@ h4{
     margin: 20px auto;
 }
 
-p{
+.event p{
     color: grey;
     margin-left: 40px ;
     margin-right: 30px;
@@ -212,3 +212,24 @@ p{
 .explore .line{
     margin-bottom: 50px;
 }
+
+/*tours*/
+.w-50{
+    width: 50%;
+}
+
+.image-gallery img{
+    padding: 5px;
+    width: 350px;
+    height: 300px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.pt {
+    padding-top: 30px;
+}
+
+
