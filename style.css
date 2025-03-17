@@ -11,8 +11,8 @@ body , html{
 header{
     width: 100%;
     height: 100vh;
-    background-image: url('./Images/header-bg.png');
-    background-position: center;
+    background-image: url('./Images/bg2.png');
+    background-position: top;
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -111,7 +111,7 @@ ul{
         width: 100%;
         height: 100vh;
         justify-content: center;
-        margin-top: -900px;
+        margin-top: -970px;
         background: gray;
         transition: all 0.5s ease;
     }
@@ -181,10 +181,10 @@ h4{
 .explore{
     width: 100%;
     height: 100vh;
-    background: url(./Images/bg2.png);
+    background: url(./Images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
 }
 
 .explore-content{
@@ -202,7 +202,7 @@ h4{
 }
 
 .explore-content p{
-    color: rgb(210, 190, 190);
+    color: whitesmoke;
 }
 
 .explore .ctn{
@@ -229,18 +229,18 @@ h4{
 }
 
 .pt {
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 /*footer*/
 
 .footer{
     width: 100%;
-    min-height: 50%;
+    min-height: 100%;
     margin: 0;
     padding: 8px 80px;
     text-align: center;
-    background: rgb(113, 113, 126);
+    background: rgb(92, 92, 102);
 }
 
 .footer p{
